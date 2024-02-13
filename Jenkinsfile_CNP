@@ -5,6 +5,7 @@
 def type = "nodejs"
 def product = "labs"
 def component = "apps-njs"
+def expiresAfter = "2024-03-24"
 
 def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)
 
