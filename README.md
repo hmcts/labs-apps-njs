@@ -1,4 +1,4 @@
-# lab-apps-njs
+# labs-apps-njs
 
 ## Getting Started
 

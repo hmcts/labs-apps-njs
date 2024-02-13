@@ -1,11 +1,11 @@
 nodejs:
   applicationPort: 80
-  aadIdentityName: lab-apps-njs
-  ingressHost: lab-apps-njs.{{ .Values.global.environment }}.platform.hmcts.net
-  image: 'hmctspublic.azurecr.io/lab-apps-njs/expressjs-template:latest'
+  aadIdentityName: labs-apps-njs
+  ingressHost: labs-apps-njs.{{ .Values.global.environment }}.platform.hmcts.net
+  image: 'hmctspublic.azurecr.io/labs-apps-njs/expressjs-template:latest'
   #  Uncomment once the vault containing the app insights key has been set up
   #  keyVaults:
-  #    lab-apps-njs:
+  #    labs-apps-njs:
   #      secrets:
   #        - AppInsightsInstrumentationKey
   environment:
