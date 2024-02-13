@@ -8,7 +8,7 @@ export class AppInsights {
       appInsights.setup(config.get('appInsights.instrumentationKey')).setSendLiveMetrics(true).start();
 
       appInsights.defaultClient.context.tags[appInsights.defaultClient.context.keys.cloudRole] =
-        'lab-apps-njs-expressjs-template';
+        'lab-apps-njs';
       appInsights.defaultClient.trackTrace({
         message: 'App insights activated',
       });

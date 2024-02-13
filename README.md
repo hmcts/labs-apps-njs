@@ -1,4 +1,4 @@
-# lab-apps-njs-expressjs-template
+# lab-apps-njs
 
 ## Getting Started
 
