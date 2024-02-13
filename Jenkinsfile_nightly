@@ -9,7 +9,7 @@ pipelineTriggers([cron('H 07 * * 1-5')])
 
 def type = "nodejs"
 def product = "labs"
-def component = "labs-apps-njs"
+def component = "apps-njs"
 
 withNightlyPipeline(type, product, component) {
 
