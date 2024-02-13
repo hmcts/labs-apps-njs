@@ -53,14 +53,14 @@ function runPally(url: string): Promise<Pa11yResult> {
   });
 }
 
-// function expectNoErrors(messages: PallyIssue[]): void {
-//   const errors = messages.filter(m => m.type === 'error');
-//
-//   if (errors.length > 0) {
-//     const errorsAsJson = `${JSON.stringify(errors, null, 2)}`;
-//     throw new Error(`There are accessibility issues: \n${errorsAsJson}\n`);
-//   }
-// }
+function expectNoErrors(messages: PallyIssue[]): void {
+  const errors = messages.filter(m => m.type === 'error');
+
+  if (errors.length > 0) {
+    const errorsAsJson = `${JSON.stringify(errors, null, 2)}`;
+    throw new Error(`There are accessibility issues: \n${errorsAsJson}\n`);
+  }
+}
 
 function testAccessibility(url: string): void {
   describe(`Page ${url}`, () => {
@@ -68,7 +68,7 @@ function testAccessibility(url: string): void {
       await ensurePageCallWillSucceed(url);
       const result = await runPally(agent.get(url).url);
       expect(result.issues).toEqual(expect.any(Array));
-      // expectNoErrors(result.issues);
+      expectNoErrors(result.issues);
     });
   });
 }
@@ -76,6 +76,6 @@ function testAccessibility(url: string): void {
 describe('Accessibility', () => {
   // testing accessibility of the home page
   testAccessibility('/');
-  // expect(12).toBe(12);
+
   // TODO: include each path of your application in accessibility checks
 });
