@@ -53,6 +53,7 @@ In order to test if the application is up, you can visit https://localhost:80 in
 You should get a very basic home page (no styles, etc.).
 
 ## Developing
+Default
 
 ### Code style
 
