@@ -24,7 +24,7 @@ properties([
     string(name: 'ENVIRONMENT', defaultValue: 'sandbox', description: 'Environment where code should be build and deployed'),
     choice(name: 'SUBSCRIPTION', choices: 'sandbox\nnonprod\nprod\nhmctsdemo', description: 'Azure subscriptions available to build in')
   ]),
-  [$class: 'GithubProjectProperty', projectUrlStr: 'github.com/contino/cnp-plum-frontend '],
+  [$class: 'GithubProjectProperty', projectUrlStr: 'github.com/contino/labs-apps-njs '],
   pipelineTriggers([[$class: 'GitHubPushTrigger']])
 ])
 
