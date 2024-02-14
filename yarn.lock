@@ -9402,9 +9402,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lab-apps-njs@workspace:.":
+"labs-apps-njs@workspace:.":
   version: 0.0.0-use.local
-  resolution: "lab-apps-njs@workspace:."
+  resolution: "labs-apps-njs@workspace:."
   dependencies:
     "@babel/core": ^7.22.11
     "@babel/eslint-parser": ^7.22.11

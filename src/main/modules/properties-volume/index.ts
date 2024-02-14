@@ -8,7 +8,7 @@ export class PropertiesVolume {
     if (server.locals.ENV !== 'development') {
       propertiesVolume.addTo(config);
 
-      this.setSecret('secrets.lab-apps-njs.AppInsightsInstrumentationKey', 'appInsights.instrumentationKey');
+      this.setSecret('secrets.labs-apps-njs.AppInsightsInstrumentationKey', 'appInsights.instrumentationKey');
     }
   }
 
