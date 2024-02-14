@@ -6,5 +6,5 @@ module.exports = {
   transform: {
     '^.+\\.ts?$': 'ts-jest',
   },
-  timers: "fake"
+  timers: 'fake',
 };
