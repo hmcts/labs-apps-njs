@@ -1,5 +1,5 @@
 nodejs:
-  applicationPort: 80
+  applicationPort: 3001
   aadIdentityName: labs
   ingressHost: labs-apps-njs.{{ .Values.global.environment }}.platform.hmcts.net
   image: 'hmctspublic.azurecr.io/labs/apps-njs:latest'
