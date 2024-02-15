@@ -4,7 +4,7 @@ process.on('unhandledRejection', reason => {
 });
 
 export const config = {
-  TEST_URL: process.env.TEST_URL || 'http://localhost:80',
+  TEST_URL: process.env.TEST_URL || 'http://localhost:3100', // TODO: change this mapping to map the port your application listens on
   TestHeadlessBrowser: process.env.TEST_HEADLESS ? process.env.TEST_HEADLESS === 'true' : true,
   TestSlowMo: 250,
   WaitForTimeout: 10000,
