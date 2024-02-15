@@ -80,7 +80,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["govuk-frontend", "npm:4.8.0"],\
             ["helmet", "npm:7.1.0"],\
             ["html-webpack-plugin", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:5.6.0"],\
-            ["husky", "npm:8.0.3"],\
+            ["husky", "npm:9.0.11"],\
             ["jest", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:29.7.0"],\
             ["jest-html-reporter", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:3.10.2"],\
             ["jquery", "npm:3.7.1"],\
@@ -10647,10 +10647,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["husky", [\
-        ["npm:8.0.3", {\
-          "packageLocation": "./.yarn/cache/husky-npm-8.0.3-b0b59c5127-837bc7e441.zip/node_modules/husky/",\
+        ["npm:9.0.11", {\
+          "packageLocation": "./.yarn/cache/husky-npm-9.0.11-227bb1e4e4-1aebc3334d.zip/node_modules/husky/",\
           "packageDependencies": [\
-            ["husky", "npm:8.0.3"]\
+            ["husky", "npm:9.0.11"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -12349,7 +12349,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["govuk-frontend", "npm:4.8.0"],\
             ["helmet", "npm:7.1.0"],\
             ["html-webpack-plugin", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:5.6.0"],\
-            ["husky", "npm:8.0.3"],\
+            ["husky", "npm:9.0.11"],\
             ["jest", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:29.7.0"],\
             ["jest-html-reporter", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:3.10.2"],\
             ["jquery", "npm:3.7.1"],\
