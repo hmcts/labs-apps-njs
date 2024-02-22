@@ -7,4 +7,5 @@ module.exports = {
     '^.+\\.ts?$': 'ts-jest',
   },
   timers: 'fake',
+  preset: 'ts-jext/presets/js-with-ts'
 };
