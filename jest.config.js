@@ -7,5 +7,5 @@ module.exports = {
     '^.+\\.ts?$': 'ts-jest',
   },
   timers: 'fake',
-  transformIgnorePatterns: [ "node_modules/(?!(chai))" ]
+  transformIgnorePatterns: ['node_modules/(?!(chai))'],
 };
