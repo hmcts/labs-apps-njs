@@ -73,7 +73,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.56.0"],\
             ["eslint-config-prettier", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:9.1.0"],\
             ["eslint-plugin-import", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:2.29.1"],\
-            ["eslint-plugin-jest", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:27.8.0"],\
+            ["eslint-plugin-jest", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:27.9.0"],\
             ["express", "npm:4.18.2"],\
             ["express-nunjucks", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:3.1.1"],\
             ["glob", "npm:10.3.10"],\
@@ -9062,17 +9062,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["eslint-plugin-jest", [\
-        ["npm:27.8.0", {\
-          "packageLocation": "./.yarn/cache/eslint-plugin-jest-npm-27.8.0-c238823de9-1fcdcf332b.zip/node_modules/eslint-plugin-jest/",\
+        ["npm:27.9.0", {\
+          "packageLocation": "./.yarn/cache/eslint-plugin-jest-npm-27.9.0-050f40ee4c-e2a4b41510.zip/node_modules/eslint-plugin-jest/",\
           "packageDependencies": [\
-            ["eslint-plugin-jest", "npm:27.8.0"]\
+            ["eslint-plugin-jest", "npm:27.9.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:27.8.0", {\
-          "packageLocation": "./.yarn/__virtual__/eslint-plugin-jest-virtual-506a1484c4/0/cache/eslint-plugin-jest-npm-27.8.0-c238823de9-1fcdcf332b.zip/node_modules/eslint-plugin-jest/",\
+        ["virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:27.9.0", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-plugin-jest-virtual-ac09010005/0/cache/eslint-plugin-jest-npm-27.9.0-050f40ee4c-e2a4b41510.zip/node_modules/eslint-plugin-jest/",\
           "packageDependencies": [\
-            ["eslint-plugin-jest", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:27.8.0"],\
+            ["eslint-plugin-jest", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:27.9.0"],\
             ["@types/eslint", null],\
             ["@types/jest", "npm:29.5.12"],\
             ["@types/typescript-eslint__eslint-plugin", null],\
@@ -12422,7 +12422,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.56.0"],\
             ["eslint-config-prettier", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:9.1.0"],\
             ["eslint-plugin-import", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:2.29.1"],\
-            ["eslint-plugin-jest", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:27.8.0"],\
+            ["eslint-plugin-jest", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:27.9.0"],\
             ["express", "npm:4.18.2"],\
             ["express-nunjucks", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:3.1.1"],\
             ["glob", "npm:10.3.10"],\
