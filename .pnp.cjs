@@ -6699,10 +6699,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["centra", [\
-        ["npm:2.6.0", {\
-          "packageLocation": "./.yarn/cache/centra-npm-2.6.0-2dce7cb28c-3b4d44762b.zip/node_modules/centra/",\
+        ["npm:2.7.0", {\
+          "packageLocation": "./.yarn/cache/centra-npm-2.7.0-d26bd18495-59ec76d9ba.zip/node_modules/centra/",\
           "packageDependencies": [\
-            ["centra", "npm:2.6.0"]\
+            ["centra", "npm:2.7.0"],\
+            ["follow-redirects", "virtual:d26bd18495c6e548fbbc2cfc8efb6441c7fde4e60f3122e65c8cb3ae2e037d8f55310368731fe4afc57ef8eaab3afeda4c84b03e3acf86e401cbc65afeb31de3#npm:1.15.6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9713,6 +9714,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["follow-redirects", "npm:1.15.5"]\
           ],\
           "linkType": "SOFT"\
+        }],\
+        ["npm:1.15.6", {\
+          "packageLocation": "./.yarn/cache/follow-redirects-npm-1.15.6-50635fe51d-a62c378dfc.zip/node_modules/follow-redirects/",\
+          "packageDependencies": [\
+            ["follow-redirects", "npm:1.15.6"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:d26bd18495c6e548fbbc2cfc8efb6441c7fde4e60f3122e65c8cb3ae2e037d8f55310368731fe4afc57ef8eaab3afeda4c84b03e3acf86e401cbc65afeb31de3#npm:1.15.6", {\
+          "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-744d8b014a/0/cache/follow-redirects-npm-1.15.6-50635fe51d-a62c378dfc.zip/node_modules/follow-redirects/",\
+          "packageDependencies": [\
+            ["follow-redirects", "virtual:d26bd18495c6e548fbbc2cfc8efb6441c7fde4e60f3122e65c8cb3ae2e037d8f55310368731fe4afc57ef8eaab3afeda4c84b03e3acf86e401cbc65afeb31de3#npm:1.15.6"],\
+            ["@types/debug", null],\
+            ["debug", null]\
+          ],\
+          "packagePeers": [\
+            "@types/debug",\
+            "debug"\
+          ],\
+          "linkType": "HARD"\
         }],\
         ["virtual:d7b9974d1bba76881cc57a280a16dd4914416a6fc4923c2efbb6328057412974da1e719cef1530b7a62b97d85d828f7e1d49b5f6de3b5b0854d49902ec87827c#npm:1.15.5", {\
           "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-393395f3f6/0/cache/follow-redirects-npm-1.15.5-9d14db76ca-5ca49b5ce6.zip/node_modules/follow-redirects/",\
@@ -14190,7 +14211,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["openapi-fuzzer-core", "npm:1.0.6"],\
             ["pactum-matchers", "npm:1.1.6"],\
             ["parse-graphql", "npm:1.0.0"],\
-            ["phin", "npm:3.7.0"],\
+            ["phin", "npm:3.7.1"],\
             ["polka", "npm:0.5.2"]\
           ],\
           "linkType": "HARD"\
@@ -14410,11 +14431,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["phin", [\
-        ["npm:3.7.0", {\
-          "packageLocation": "./.yarn/cache/phin-npm-3.7.0-c9bd8efbed-b0a35e9436.zip/node_modules/phin/",\
+        ["npm:3.7.1", {\
+          "packageLocation": "./.yarn/cache/phin-npm-3.7.1-68fa368c17-eebbfb0ab6.zip/node_modules/phin/",\
           "packageDependencies": [\
-            ["phin", "npm:3.7.0"],\
-            ["centra", "npm:2.6.0"]\
+            ["phin", "npm:3.7.1"],\
+            ["centra", "npm:2.7.0"]\
           ],\
           "linkType": "HARD"\
         }]\
