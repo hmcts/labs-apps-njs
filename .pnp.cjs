@@ -59,7 +59,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["axios", "npm:1.6.7"],\
             ["axios-debug-log", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:1.0.0"],\
             ["babel-loader", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:9.1.3"],\
-            ["body-parser", "npm:1.20.2"],\
+            ["body-parser", "npm:1.20.3"],\
             ["chai", "npm:5.1.0"],\
             ["chai-as-promised", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:7.1.1"],\
             ["chokidar", "npm:3.6.0"],\
@@ -6394,10 +6394,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:1.20.2", {\
-          "packageLocation": "./.yarn/cache/body-parser-npm-1.20.2-44738662cf-14d37ec638.zip/node_modules/body-parser/",\
+        ["npm:1.20.3", {\
+          "packageLocation": "./.yarn/cache/body-parser-npm-1.20.3-c7b184cd14-1a35c59a6b.zip/node_modules/body-parser/",\
           "packageDependencies": [\
-            ["body-parser", "npm:1.20.2"],\
+            ["body-parser", "npm:1.20.3"],\
             ["bytes", "npm:3.1.2"],\
             ["content-type", "npm:1.0.5"],\
             ["debug", "virtual:759fd14db92b54abdb7afb3d21dbf8d50f1a5c59c96cd3f963ce3e3ed063bdb801142fae5f01cc81fb79f7ddc13b7c31a9deb9d5a9cfa48ec107f83de8f7f40e#npm:2.6.9"],\
@@ -6406,7 +6406,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["http-errors", "npm:2.0.0"],\
             ["iconv-lite", "npm:0.4.24"],\
             ["on-finished", "npm:2.4.1"],\
-            ["qs", "npm:6.11.0"],\
+            ["qs", "npm:6.13.0"],\
             ["raw-body", "npm:2.5.2"],\
             ["type-is", "npm:1.6.18"],\
             ["unpipe", "npm:1.0.0"]\
@@ -12408,7 +12408,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["axios", "npm:1.6.7"],\
             ["axios-debug-log", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:1.0.0"],\
             ["babel-loader", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:9.1.3"],\
-            ["body-parser", "npm:1.20.2"],\
+            ["body-parser", "npm:1.20.3"],\
             ["chai", "npm:5.1.0"],\
             ["chai-as-promised", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:7.1.1"],\
             ["chokidar", "npm:3.6.0"],\
@@ -15007,6 +15007,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
+        ["npm:6.13.0", {\
+          "packageLocation": "./.yarn/cache/qs-npm-6.13.0-53676ddc84-e9404dc0fc.zip/node_modules/qs/",\
+          "packageDependencies": [\
+            ["qs", "npm:6.13.0"],\
+            ["side-channel", "npm:1.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:6.5.3", {\
           "packageLocation": "./.yarn/cache/qs-npm-6.5.3-90b2635484-6f20bf08ca.zip/node_modules/qs/",\
           "packageDependencies": [\
@@ -15938,6 +15946,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/side-channel-npm-1.0.5-ac07c0c62d-640446b4e5.zip/node_modules/side-channel/",\
           "packageDependencies": [\
             ["side-channel", "npm:1.0.5"],\
+            ["call-bind", "npm:1.0.7"],\
+            ["es-errors", "npm:1.3.0"],\
+            ["get-intrinsic", "npm:1.2.4"],\
+            ["object-inspect", "npm:1.13.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:1.0.6", {\
+          "packageLocation": "./.yarn/cache/side-channel-npm-1.0.6-511657386f-bfc1afc182.zip/node_modules/side-channel/",\
+          "packageDependencies": [\
+            ["side-channel", "npm:1.0.6"],\
             ["call-bind", "npm:1.0.7"],\
             ["es-errors", "npm:1.3.0"],\
             ["get-intrinsic", "npm:1.2.4"],\
