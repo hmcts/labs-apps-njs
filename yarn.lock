@@ -1639,14 +1639,14 @@ __metadata:
   linkType: hard
 
 "@codeceptjs/configure@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@codeceptjs/configure@npm:1.0.0"
+  version: 1.0.6
+  resolution: "@codeceptjs/configure@npm:1.0.6"
   dependencies:
     lodash.merge: ^4.6.2
     lodash.mergewith: ^4.6.2
   peerDependencies:
-    codeceptjs: ">= 2.3.3"
-  checksum: 00720f42f498c1b9664477f343bc6787b121d393c8ead1c40376b5ac0eda50e4ff22840c8fe516eb37d003c5f4497e0f1fdd726b29652c22b44505603ecd3df0
+    codeceptjs: ">=2.3.3 <100.0.0"
+  checksum: 43a95fb85f82ae07c684558ce21a0671b0cc5eee73ef772cbc6a2a1ed43ceb3e56d391996330868e6f17668f928db6b59b8058204c2aed11a5f87b3bb4ed038c
   languageName: node
   linkType: hard
 
