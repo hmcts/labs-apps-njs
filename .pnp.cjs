@@ -46,7 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/express", "npm:4.17.21"],\
             ["@types/glob", "npm:8.1.0"],\
             ["@types/helmet", "npm:4.0.0"],\
-            ["@types/jest", "npm:29.5.12"],\
+            ["@types/jest", "npm:29.5.14"],\
             ["@types/lodash", "npm:4.14.202"],\
             ["@types/node", "npm:20.11.19"],\
             ["@types/nunjucks", "npm:3.2.6"],\
@@ -4393,10 +4393,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/jest", [\
-        ["npm:29.5.12", {\
-          "packageLocation": "./.yarn/cache/@types-jest-npm-29.5.12-6459b9d012-19b1efdeed.zip/node_modules/@types/jest/",\
+        ["npm:29.5.14", {\
+          "packageLocation": "./.yarn/cache/@types-jest-npm-29.5.14-506446c38e-18dba4623f.zip/node_modules/@types/jest/",\
           "packageDependencies": [\
-            ["@types/jest", "npm:29.5.12"],\
+            ["@types/jest", "npm:29.5.14"],\
             ["expect", "npm:29.7.0"],\
             ["pretty-format", "npm:29.7.0"]\
           ],\
@@ -9074,7 +9074,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["eslint-plugin-jest", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:27.8.0"],\
             ["@types/eslint", null],\
-            ["@types/jest", "npm:29.5.12"],\
+            ["@types/jest", "npm:29.5.14"],\
             ["@types/typescript-eslint__eslint-plugin", null],\
             ["@typescript-eslint/eslint-plugin", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:5.62.0"],\
             ["@typescript-eslint/utils", "virtual:f1cba9bcf5fd6c42865c06a25b019265d3b052ff4d5f98ba8a8e5e4042e7a3c29a6d7cf9ef995b14d872ae446f9ddc27210e57d4958772b645a14d5207b86c67#npm:5.62.0"],\
@@ -11723,7 +11723,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-html-reporter", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:3.10.2"],\
             ["@jest/test-result", "npm:29.7.0"],\
             ["@jest/types", "npm:29.6.3"],\
-            ["@types/jest", "npm:29.5.12"],\
+            ["@types/jest", "npm:29.5.14"],\
             ["@types/typescript", null],\
             ["dateformat", "npm:3.0.2"],\
             ["jest", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:29.7.0"],\
@@ -12395,7 +12395,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/express", "npm:4.17.21"],\
             ["@types/glob", "npm:8.1.0"],\
             ["@types/helmet", "npm:4.0.0"],\
-            ["@types/jest", "npm:29.5.12"],\
+            ["@types/jest", "npm:29.5.14"],\
             ["@types/lodash", "npm:4.14.202"],\
             ["@types/node", "npm:20.11.19"],\
             ["@types/nunjucks", "npm:3.2.6"],\
@@ -17196,7 +17196,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel-jest", null],\
             ["@types/babel__core", null],\
             ["@types/esbuild", null],\
-            ["@types/jest", "npm:29.5.12"],\
+            ["@types/jest", "npm:29.5.14"],\
             ["@types/jest__types", null],\
             ["@types/typescript", null],\
             ["babel-jest", null],\
