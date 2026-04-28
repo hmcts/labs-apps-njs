@@ -85,7 +85,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-html-reporter", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:3.10.2"],\
             ["jquery", "npm:3.7.1"],\
             ["lint-staged", "npm:15.2.2"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.18.1"],\
             ["mini-css-extract-plugin", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:2.8.0"],\
             ["nock", "npm:13.5.3"],\
             ["nodemon", "npm:3.0.3"],\
@@ -3292,7 +3292,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@azure/keyvault-secrets", "npm:4.7.0"],\
             ["@hmcts/nodejs-logging", "npm:4.0.4"],\
             ["js-yaml", "npm:4.1.0"],\
-            ["lodash", "npm:4.17.21"]\
+            ["lodash", "npm:4.18.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5841,7 +5841,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/async-npm-2.6.4-3155e80151-a52083fb32.zip/node_modules/async/",\
           "packageDependencies": [\
             ["async", "npm:2.6.4"],\
-            ["lodash", "npm:4.17.21"]\
+            ["lodash", "npm:4.18.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6771,7 +6771,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/chai", null],\
             ["chai", "npm:5.0.3"],\
             ["deep-keys", "npm:0.5.0"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.18.1"],\
             ["lodash-pickdeep", "npm:1.0.2"]\
           ],\
           "packagePeers": [\
@@ -6957,7 +6957,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["checkit", "npm:0.7.0"],\
             ["inherits", "npm:2.0.4"],\
-            ["lodash", "npm:4.17.21"]\
+            ["lodash", "npm:4.18.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8231,7 +8231,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["funpermaproxy", "npm:1.1.0"],\
             ["get-port", "npm:2.1.0"],\
             ["ini", "npm:1.3.8"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.18.1"],\
             ["minimist", "npm:1.2.8"],\
             ["proper-lockfile", "npm:3.2.0"],\
             ["sanitize-filename", "npm:1.6.3"],\
@@ -10568,7 +10568,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/rspack__core", null],\
             ["@types/webpack", null],\
             ["html-minifier-terser", "npm:6.1.0"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.18.1"],\
             ["pretty-error", "npm:4.0.0"],\
             ["tapable", "npm:2.2.1"],\
             ["webpack", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:5.90.3"]\
@@ -10911,7 +10911,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cli-width", "npm:2.2.1"],\
             ["external-editor", "npm:3.1.0"],\
             ["figures", "npm:2.0.0"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.18.1"],\
             ["mute-stream", "npm:0.0.7"],\
             ["run-async", "npm:2.4.1"],\
             ["rxjs", "npm:6.6.7"],\
@@ -12434,7 +12434,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-html-reporter", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:3.10.2"],\
             ["jquery", "npm:3.7.1"],\
             ["lint-staged", "npm:15.2.2"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.18.1"],\
             ["mini-css-extract-plugin", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:2.8.0"],\
             ["nock", "npm:13.5.3"],\
             ["nodemon", "npm:3.0.3"],\
@@ -12626,10 +12626,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["lodash", [\
-        ["npm:4.17.21", {\
-          "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/",\
+        ["npm:4.18.1", {\
+          "packageLocation": "./.yarn/cache/lodash-npm-4.18.1-a64c3070ac-bb5f5b49aa.zip/node_modules/lodash/",\
           "packageDependencies": [\
-            ["lodash", "npm:4.17.21"]\
+            ["lodash", "npm:4.18.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -12640,7 +12640,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["lodash-checkit", "npm:2.4.1"],\
             ["checkit", "npm:0.7.0"],\
-            ["lodash", "npm:4.17.21"]\
+            ["lodash", "npm:4.18.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -12662,7 +12662,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lodash-pickdeep-npm-1.0.2-d49bd1a0b5-ba9aeb5929.zip/node_modules/lodash-pickdeep/",\
           "packageDependencies": [\
             ["lodash-pickdeep", "npm:1.0.2"],\
-            ["lodash", "npm:4.17.21"]\
+            ["lodash", "npm:4.18.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -14733,7 +14733,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/pretty-error-npm-4.0.0-7cca1fe4ad-a5b9137365.zip/node_modules/pretty-error/",\
           "packageDependencies": [\
             ["pretty-error", "npm:4.0.0"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.18.1"],\
             ["renderkid", "npm:3.0.0"]\
           ],\
           "linkType": "HARD"\
@@ -15330,7 +15330,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["css-select", "npm:4.3.0"],\
             ["dom-converter", "npm:0.2.0"],\
             ["htmlparser2", "npm:6.1.0"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.18.1"],\
             ["strip-ansi", "npm:6.0.1"]\
           ],\
           "linkType": "HARD"\
@@ -15919,7 +15919,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/shell-utils-npm-1.0.10-bbb06d4a19-537e8ab199.zip/node_modules/shell-utils/",\
           "packageDependencies": [\
             ["shell-utils", "npm:1.0.10"],\
-            ["lodash", "npm:4.17.21"]\
+            ["lodash", "npm:4.18.1"]\
           ],\
           "linkType": "HARD"\
         }]\
