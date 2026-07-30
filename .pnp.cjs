@@ -88,7 +88,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lodash", "npm:4.17.21"],\
             ["mini-css-extract-plugin", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:2.8.0"],\
             ["nock", "npm:13.5.3"],\
-            ["nodemon", "npm:3.0.3"],\
+            ["nodemon", "npm:3.1.14"],\
             ["nunjucks", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:3.2.4"],\
             ["pa11y", "npm:6.2.3"],\
             ["playwright", "npm:1.41.2"],\
@@ -6217,6 +6217,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["balanced-match", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:4.0.4", {\
+          "packageLocation": "./.yarn/cache/balanced-match-npm-4.0.4-fd666b3c7f-fb07bb66a0.zip/node_modules/balanced-match/",\
+          "packageDependencies": [\
+            ["balanced-match", "npm:4.0.4"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["bare-events", [\
@@ -6438,6 +6445,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["brace-expansion", "npm:2.0.1"],\
             ["balanced-match", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.0.9", {\
+          "packageLocation": "./.yarn/cache/brace-expansion-npm-5.0.9-2717df6b49-81d14bf63c.zip/node_modules/brace-expansion/",\
+          "packageDependencies": [\
+            ["brace-expansion", "npm:5.0.9"],\
+            ["balanced-match", "npm:4.0.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7959,6 +7974,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
+        ["virtual:58ccc9ac245a39eeec160ecda6f112d7ef0ddf9c7f8cfea2e2aceaea55ec9940ab3f8b3bf1e3152f49bc6f7b9ed1ecde5638b22c54edf74c709936ced24c14f4#npm:4.3.4", {\
+          "packageLocation": "./.yarn/__virtual__/debug-virtual-3fcfd03225/0/cache/debug-npm-4.3.4-4513954577-3dbad3f94e.zip/node_modules/debug/",\
+          "packageDependencies": [\
+            ["debug", "virtual:58ccc9ac245a39eeec160ecda6f112d7ef0ddf9c7f8cfea2e2aceaea55ec9940ab3f8b3bf1e3152f49bc6f7b9ed1ecde5638b22c54edf74c709936ced24c14f4#npm:4.3.4"],\
+            ["@types/supports-color", null],\
+            ["ms", "npm:2.1.2"],\
+            ["supports-color", "npm:5.5.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/supports-color",\
+            "supports-color"\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["virtual:759fd14db92b54abdb7afb3d21dbf8d50f1a5c59c96cd3f963ce3e3ed063bdb801142fae5f01cc81fb79f7ddc13b7c31a9deb9d5a9cfa48ec107f83de8f7f40e#npm:2.6.9", {\
           "packageLocation": "./.yarn/__virtual__/debug-virtual-c49e738777/0/cache/debug-npm-2.6.9-7d4cb597dc-d2f51589ca.zip/node_modules/debug/",\
           "packageDependencies": [\
@@ -7980,20 +8009,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/supports-color", null],\
             ["ms", "npm:2.1.2"],\
             ["supports-color", "npm:8.1.1"]\
-          ],\
-          "packagePeers": [\
-            "@types/supports-color",\
-            "supports-color"\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["virtual:92b13daa11bb2793aa45735c0c05af8ffa874a827b29e67fbacf76a76f2d76e5e228cca1bbe81f6fe5b648823713cef9d5c76d779ffcf161103049857ded276a#npm:4.3.4", {\
-          "packageLocation": "./.yarn/__virtual__/debug-virtual-f90f2806a0/0/cache/debug-npm-4.3.4-4513954577-3dbad3f94e.zip/node_modules/debug/",\
-          "packageDependencies": [\
-            ["debug", "virtual:92b13daa11bb2793aa45735c0c05af8ffa874a827b29e67fbacf76a76f2d76e5e228cca1bbe81f6fe5b648823713cef9d5c76d779ffcf161103049857ded276a#npm:4.3.4"],\
-            ["@types/supports-color", null],\
-            ["ms", "npm:2.1.2"],\
-            ["supports-color", "npm:5.5.0"]\
           ],\
           "packagePeers": [\
             "@types/supports-color",\
@@ -12437,7 +12452,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lodash", "npm:4.17.21"],\
             ["mini-css-extract-plugin", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:2.8.0"],\
             ["nock", "npm:13.5.3"],\
-            ["nodemon", "npm:3.0.3"],\
+            ["nodemon", "npm:3.1.14"],\
             ["nunjucks", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:3.2.4"],\
             ["pa11y", "npm:6.2.3"],\
             ["playwright", "npm:1.41.2"],\
@@ -13187,6 +13202,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["minimatch", [\
+        ["npm:10.2.6", {\
+          "packageLocation": "./.yarn/cache/minimatch-npm-10.2.6-fd0d1cf467-6f3d0ba765.zip/node_modules/minimatch/",\
+          "packageDependencies": [\
+            ["minimatch", "npm:10.2.6"],\
+            ["brace-expansion", "npm:5.0.9"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:3.1.2", {\
           "packageLocation": "./.yarn/cache/minimatch-npm-3.1.2-9405269906-c154e56640.zip/node_modules/minimatch/",\
           "packageDependencies": [\
@@ -13698,14 +13721,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["nodemon", [\
-        ["npm:3.0.3", {\
-          "packageLocation": "./.yarn/unplugged/nodemon-npm-3.0.3-92b13daa11/node_modules/nodemon/",\
+        ["npm:3.1.14", {\
+          "packageLocation": "./.yarn/unplugged/nodemon-npm-3.1.14-58ccc9ac24/node_modules/nodemon/",\
           "packageDependencies": [\
-            ["nodemon", "npm:3.0.3"],\
+            ["nodemon", "npm:3.1.14"],\
             ["chokidar", "npm:3.6.0"],\
-            ["debug", "virtual:92b13daa11bb2793aa45735c0c05af8ffa874a827b29e67fbacf76a76f2d76e5e228cca1bbe81f6fe5b648823713cef9d5c76d779ffcf161103049857ded276a#npm:4.3.4"],\
+            ["debug", "virtual:58ccc9ac245a39eeec160ecda6f112d7ef0ddf9c7f8cfea2e2aceaea55ec9940ab3f8b3bf1e3152f49bc6f7b9ed1ecde5638b22c54edf74c709936ced24c14f4#npm:4.3.4"],\
             ["ignore-by-default", "npm:1.0.1"],\
-            ["minimatch", "npm:3.1.2"],\
+            ["minimatch", "npm:10.2.6"],\
             ["pstree.remy", "npm:1.1.8"],\
             ["semver", "npm:7.6.0"],\
             ["simple-update-notifier", "npm:2.0.0"],\
