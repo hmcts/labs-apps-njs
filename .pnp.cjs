@@ -91,7 +91,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nodemon", "npm:3.0.3"],\
             ["nunjucks", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:3.2.4"],\
             ["pa11y", "npm:6.2.3"],\
-            ["playwright", "npm:1.41.2"],\
+            ["playwright", "npm:1.63.0"],\
             ["postcss", "npm:8.4.35"],\
             ["prettier", "npm:3.2.5"],\
             ["request", "npm:2.88.2"],\
@@ -9919,14 +9919,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1", {\
-          "packageLocation": "./.yarn/unplugged/fsevents-patch-2882183fbf/node_modules/fsevents/",\
-          "packageDependencies": [\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
-            ["node-gyp", "npm:10.0.1"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1", {\
           "packageLocation": "./.yarn/unplugged/fsevents-patch-21ad2b1333/node_modules/fsevents/",\
           "packageDependencies": [\
@@ -12440,7 +12432,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nodemon", "npm:3.0.3"],\
             ["nunjucks", "virtual:e3f88a6706a516b983e5f5c608423b2a7578c0b7300c5df1b5246c773f2ad30165f8eb75dd19ac0a11c379b36bdbf84f69bf98be18c91f423c9d29d17a47a67f#npm:3.2.4"],\
             ["pa11y", "npm:6.2.3"],\
-            ["playwright", "npm:1.41.2"],\
+            ["playwright", "npm:1.63.0"],\
             ["postcss", "npm:8.4.35"],\
             ["prettier", "npm:3.2.5"],\
             ["request", "npm:2.88.2"],\
@@ -14493,21 +14485,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["playwright", [\
-        ["npm:1.41.2", {\
-          "packageLocation": "./.yarn/cache/playwright-npm-1.41.2-60fb5e8828-acf166003e.zip/node_modules/playwright/",\
+        ["npm:1.63.0", {\
+          "packageLocation": "./.yarn/cache/playwright-npm-1.63.0-f27e8a40d2-6f90bca3d6.zip/node_modules/playwright/",\
           "packageDependencies": [\
-            ["playwright", "npm:1.41.2"],\
-            ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
-            ["playwright-core", "npm:1.41.2"]\
+            ["playwright", "npm:1.63.0"],\
+            ["playwright-core", "npm:1.63.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["playwright-core", [\
-        ["npm:1.41.2", {\
-          "packageLocation": "./.yarn/unplugged/playwright-core-npm-1.41.2-728059602f/node_modules/playwright-core/",\
+        ["npm:1.63.0", {\
+          "packageLocation": "./.yarn/cache/playwright-core-npm-1.63.0-ef52743921-b4c190c409.zip/node_modules/playwright-core/",\
           "packageDependencies": [\
-            ["playwright-core", "npm:1.41.2"]\
+            ["playwright-core", "npm:1.63.0"]\
           ],\
           "linkType": "HARD"\
         }]\
